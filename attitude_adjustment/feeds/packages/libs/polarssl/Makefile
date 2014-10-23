@@ -1,5 +1,5 @@
 # 
-# Copyright (C) 2011 OpenWrt.org
+# Copyright (C) 2011-2013 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -8,12 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=polarssl
-PKG_VERSION:=1.2.5
+PKG_VERSION:=1.3.4
 PKG_RELEASE:=1
+PKG_USE_MIPS16:=0
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-gpl.tgz
 PKG_SOURCE_URL:=https://polarssl.org/code/releases
-PKG_MD5SUM:=f42dd79cd85384ac9ad482caa665ac8f
+PKG_MD5SUM:=30a75c5f171be49f805f3bf64a0af054
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
@@ -34,6 +35,7 @@ $(call Package/polarssl/Default)
   SECTION:=libs
   CATEGORY:=Libraries
   TITLE+= (library)
+  ABI_VERSION:=$(PKG_VERSION)
 endef
 
 define Package/libpolarssl/description
@@ -45,7 +47,7 @@ define Package/polarssl-progs
 $(call Package/polarssl/Default)
   SECTION:=utils
   CATEGORY:=Utilities
-  DEPENDS:=+libpolarssl
+  DEPENDS:=+libpolarssl +libpthread
   TITLE+= (programs)
 endef
 
