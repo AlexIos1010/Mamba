@@ -4,12 +4,9 @@ this is for wrt1900ac.
 
 ipk download:
 -------
-[chinadns v1.1.7](http://xx.xx)
-[polarssl v1.3.4](http://xx.xx)
-[ShadowSocks-libve v1.4.8](http://xx.xx)
-
-It is a port of [shadowsocks](https://github.com/clowwindy/shadowsocks) 
-created by [@clowwindy](https://github.com/clowwindy) maintained by 
+[chinadns v1.1.7](http://xx.xx).
+[polarssl v1.3.4](http://xx.xx).
+[ShadowSocks-libve v1.4.8](http://xx.xx).
 
 img download:
 -------
