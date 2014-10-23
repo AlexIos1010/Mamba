@@ -1,9 +1,2 @@
-Added by ThienPham (thien.pham@veriksystems.com) - 23jul14
-
-branch attitude_adjustment is updated to V3.9
-
-
-
-Added by ThienPham (thien.pham@veriksystems.com) - 06may14
-
-branch attitude_adjustment is created to keep source code V3.5
+AA v3.9 (add libs: ShadowSocks-libve v1.4.8 + polarssl v1.3.4 + chinadns v1.1.7)
+this is for wrt1900ac.
