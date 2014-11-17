@@ -12,7 +12,7 @@ https://github.com/jimmychungbelkin/Mamba
 
 [libpolarssl v1.3.4](https://github.com/cooerson/Mamba/releases/download/v4.8-shadowsocks/libpolarssl_1.3.4-1_mvebu.ipk)
 
-[ShadowSocks-libve v1.4.8](https://github.com/cooerson/Mamba/releases/download/v4.8-shadowsocks/shadowsocks-libev-polarssl_1.5.3_mvebu.ipk)
+[ShadowSocks-libve v1.5.3](https://github.com/cooerson/Mamba/releases/download/v4.8-shadowsocks/shadowsocks-libev-polarssl_1.5.3_mvebu.ipk)
 
 **img download:**
 
